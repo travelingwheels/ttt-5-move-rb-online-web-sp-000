@@ -14,3 +14,7 @@ end
   return new_user_input
 end
 
+def move(board, index, character = "X")
+  board[index] = character
+  return board
+end
